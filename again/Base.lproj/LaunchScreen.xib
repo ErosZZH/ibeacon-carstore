@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="772" height="809"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BMWYZL" translatesAutoresizingMaskIntoConstraints="NO" id="9LT-dS-nd6">
+                    <rect key="frame" x="-44" y="-62" width="848" height="802"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9LT-dS-nd6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-38" id="Fqj-A0-TTa"/>
+                <constraint firstAttribute="bottom" secondItem="9LT-dS-nd6" secondAttribute="bottom" constant="51" id="hvN-QW-EGA"/>
+                <constraint firstItem="9LT-dS-nd6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-90" id="vUf-kn-dok"/>
+                <constraint firstItem="9LT-dS-nd6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xI0-Rv-PUS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="39" y="335.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BMWYZL" width="929" height="754"/>
+    </resources>
+</document>
